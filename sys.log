@@ -1,0 +1,21 @@
+[/bin/bash] Started bash console
+[/bin/bash] Loading compiler
+[/run/dbus/system_bus_socket] Seted root=1
+[/usr/bin/7za] exec /usr/lib/p7zip/7za "$@"
+[/var/backups/apt.extended_states.0/apt.extended_states.0]
+Package: ca-certificates-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-docx
+Architecture: amd64
+Auto-Installed: 1
+
+Package: python3-pydot
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ruby-opt-parse-validator
+Architecture: amd64
+Auto-Installed: 1
+[/root/] Rooted

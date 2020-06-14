@@ -1,0 +1,5 @@
+rooted=line
+UNAMED=id.*enable|admin_panel*root
+bash*cmd / ```root``` | safe_mode*boot | - disable
+admin*disable=$uuid
+hash*.decrypt{$uuid => readline( md5sum )}
