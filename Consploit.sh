@@ -1,8 +1,5 @@
 #!/bin/bash
 clear
-if [ $EUID -ne 0 ]; then # Super User Check
-  echo -e "\\033[31mAborted, please execute the script as root.\\033[0m"; exit 1
-fi
 if [ ! "${DISPLAY:-}" ]; then # Assure display is available.
   echo -e "\\033[31mAborted, X (graphical) session unavailable.\\033[0m"; exit 2
 fi
