@@ -1,0 +1,33 @@
+System
+----------
+system.log[delete] - clear system logs
+rename [file] [name] - rename file
+copy [file] [to file] - copy file
+delete [file] - delete file
+sleep [seconds] - stop the program for the specified time
+taskkill [process] - kill process on device
+=======
+range
+------
+range.insert [to to variable] - create input on screen
+range.out - create label on screen
+range.timer - create timer in device
+[one range element or variable].pax - show element or variable on screen
+[one range element or variable].dis - hide element or variable on screen
+range.kill - delete all range elements and hide all elements
+======
+crypter
+----------------
+crypter.cfile [file] - encrypt choosed file
+crypter.uncrypt [file] - uncrypt decrypted file
+crypter.disk - encrypt all files in device disk
+================
+Machine
+-----------------
+machine.kill - kill device
+machine.block - block device
+machine.off - off device
+machine.res - restart device
+machinel.passwd [your password] - change password on victim device
+machine.root [true or false] - take admin panel of victim device
+=================
