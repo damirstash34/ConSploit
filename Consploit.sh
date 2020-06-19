@@ -37,6 +37,26 @@ echo "[2] meterpreter/reverse_http"
 echo "[3] meterpreter/reverse_https"
 echo "[4] shell/reverse_tcp"
 echo -n "Payload: "; read payload
+if [ $payload = "1" ]
+then
+echo "Starting meterpeter/reverse_tcp"
+sleep 1
+else if [ $payload = "2" ]
+then
+echo "Starting meterpeter/reverse_http"
+sleep 1
+else if [ $payload = "3" ]
+then
+echo "Starting meterpeter/reverse_https"
+sleep 1
+else if [ $payload = "4" ]
+then
+echo "Starting shell/reverse_tcp"
+sleep 1
+else
+then
+
+fi
 for a in {1..1000000}
 do
 echo -n "meterpreter_shell>";read cmd
