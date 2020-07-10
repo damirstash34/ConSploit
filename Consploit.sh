@@ -53,10 +53,8 @@ else if [ $payload = "4" ]
 then
 echo "Starting shell/reverse_tcp"
 sleep 1
-else
-then
-
 fi
+
 for a in {1..1000000}
 do
 echo -n "meterpreter_shell>";read cmd
